@@ -6,4 +6,6 @@ It also uses SDL2 library for the Graphical interpretation of connect 4 board wh
 
 complete program is written in c++ and can be compiled with the makefile provided and compiled application can be found and run in the build folder (it requires the dependency files for the sdl libraries to run, so is recommended to execute inside the build folder).
 
-<img src="https://user-images.githubusercontent.com/78481858/164889607-3e1fc3cf-cedb-417b-a028-99017567bbe1.gif" alt="gif" width="200" align="center" />
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/78481858/164890669-b9fa9b88-aa7d-403c-8017-9d9536b204b3.gif" alt="gif" width="400" align="center" />
+</p>
