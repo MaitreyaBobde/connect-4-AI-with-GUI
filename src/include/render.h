@@ -122,6 +122,7 @@ void drop_anim(SDL_Renderer *renderer,SDL_Texture *texture,int win_w,int win_h,i
 
 void button_pressed(SDL_Renderer *renderer,SDL_Texture *texture,int win_w,int win_h,int x, connect4* game) {
     int y=game->get_empty(x);
+    if(y<0) return;
     drop_anim(renderer,texture,win_w,win_h,x,y,opp,game);
     game->board[y][x] = game->opp;
     game->is_terminate();
